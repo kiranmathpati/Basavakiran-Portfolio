@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basavakiran Mathpati Portfolio</title>
+    <script src="https://kit.fontawesome.com/f168fd5040.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Introduction page -->
+    <div id="header">
+        <div class="container">
+            <nav>
+               
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Basavakiran</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About page -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="fianl.jpg" alt="My Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Basavakiran, a dedicated and passionate professional specializing in MERN stack development. With a background in computer science, I bring a unique blend of creativity and technical expertise to every project I undertake.</p>
+                    <br><p>My journey began at AMC College, where I earned my MCA degree. Since then, I've worked on numerous projects, ranging from designing web/app interfaces to full-stack web and app development. These experiences have not only sharpened my skills but also deepened my love for development.</p>
+                    
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')" style= "font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')"  style= "font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')"  style= "font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End</span><br>Html, Css, JavaScript, React, Bootstrap</li>
+                            <li><span>Back-End</span><br>Node.js, Express.js</li>
+                            <li><span>Databases</span><br>MongoDB</li>
+                            <li><span>Basic Skills</span><br>Java, Python, C</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>FullStack Web Development Intern</span><br>
+                                Priston Smart Engineering Solutions, OCT 2023 – DEC 2023<br>
+                                As a summer intern, I worked on developing restful APIs using Node.js and MongoDB, and I gained valuable experience in Mern Stack and improved my problem-solving skills in a real-world environment.
+                            </li>
+                            <li><span>Web Development</span><br>Online Food Ordering Project</li>
+                            <li><span>API Integration and HTTP Requests</span><br>I am proficient in API development and testing using tools like Postman, with expertise in making HTTP requests.</li>
+                            <li><span>"Full Stack Proficiency"</span><br>I am a student, but I have full proficiency in working on full-stack development.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MCA (Master of Computer Applications)</span><br>AMCEC, VTU, Bengaluru<br>2023 - 2024<br>CGPA: 8.4</li>
+                            <li><span>BCA (Computer Science)</span><br>Gulbarga University, Bidar<br>2019 – 2023<br>CGPA: 7.5</li>
+                            <li><span>PUC (Intermediate)</span><br>Shahumaharaj College, Bidar<br>2017 – 2019<br>Percentage: 74.85%</li>
+                            <li><span>SSC (State Board)</span><br>C B P H S, Kamalnagar<br>2016 - 2017<br>Percentage: 93.80%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Enhance your digital presence with visually stunning and user-friendly web designs.</p> 
+                    
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>MERN Stack Development</h2>
+                    <p>Master the MERN (MongoDB, Express.js, React.js, Node.js) stack for building powerful and scalable web applications.</p>
+                </div>
+                
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Front-End Development</h2>
+                    <p>Create visually appealing and interactive user interfaces with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>                    <h2>Back-End Development</h2>
+                    <p>Develop robust and scalable back-end solutions using Node.js, Express.js, and MongoDB. </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work"> 
+                    <img src="newspapers.webp" alt="Project Image">
+                    <div class="layer">
+                        <h3 id="textmodify">Daily News App </h3>
+                        <p>Stay informed with News  Instantly access local and global news through a seamless API-powered experience.<div id="space"> Click Below to know more</div> </p>
+                        <a href="https://github.com/kiranmathpati/News-Monkey-kiran-Mathpati" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="online food.jpeg" alt="Project Image">
+                    <div class="layer">
+                        <h3  id="textmodify">Online Food Ordering </h3>
+                        <p>Experience seamless convenience with our online food ordering platform. <div id="space"> Click Below to know more</div> </p>
+                        <a href="https://github.com/kiranmathpati/Online-food-ordering/tree/main/Online%20food%20ordering" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-40.png" alt="Project Image">
+                    <div class="layer">
+                        <h3  id="textmodify">ResueNet</h3>
+                        <p>It is a project that provides services to people during emergency situations.<div id="space"> Click Below to know more</div>  </p>
+                        <a href="https://github.com/kiranmathpati/ResueNet" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/kiranmathpati" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kiranmathpatiofficial@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9902661123</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/kiranmathpati" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/kiranmathpati2" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/basavakiranm/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>   
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="MY RESUME.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024. Made by <i class="fa-solid fa-heart"></i> Basavakiran. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(event, tabname){
+            for(let tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(let tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwdzhsk6PFbGsUJSfxcaXcsaxjfdSxNOxoLwqxt9aGmqJuGNux0N99lFCXmTO59Izvl/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        const nav = document.querySelector("nav");
+    const toggleMenu = () => {
+        nav.classList.toggle("active");
+    };
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
